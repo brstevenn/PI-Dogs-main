@@ -1,0 +1,41 @@
+.Home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.divLink {
+    background-image: url("./Tibia.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+
+.linkDogs {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 15%;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.Home: hover {
+	cursor: pointer;
+}
+video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height:100%;
+  z-index: -1;
+}

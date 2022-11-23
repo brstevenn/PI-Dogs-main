@@ -1,0 +1,104 @@
+.dogs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: space-around;
+}
+.cardsContainer {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);   
+}
+.filters{
+    display: flex;
+    margin: 20px 40px 10px 40px;
+}
+.inputByName{
+    width: 50%;
+    background-color: #faebd700;
+    border-style: dashed;
+}
+.buttonByName{
+    width: 50%;
+    height: 50%;
+    margin: 5px;
+    background-color: #bbb4b2;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.buttonByName:hover{
+    cursor: pointer;
+}
+.labelByTemperament{
+    font-size: 18px;
+    font-weight: bold;
+}
+.selectByTemperament{
+    width: 50%;
+    height: 50%;
+    border-style: dashed;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+}
+.selectByTemperament::-ms-expand {
+    display: none;
+}
+.selectByTemperament:hover {
+    border-color: #888;
+    cursor: pointer;
+}
+.selectByTemperament:focus {
+    border-color: #888;
+    cursor: pointer;
+    box-shadow: 0 0 1px 1px;
+}
+.selectByTemperament option {
+    font-weight: bold;
+}
+.selectByTemperament select {
+    background-color: black;
+    color: white;
+}
+.sortDogs {
+    margin: 2px 3px 2px 3px;
+    background-color: transparent;
+    border-style: double;
+    border-color: #767676;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.sortDogs:hover {
+    cursor: pointer;
+}
+.buttonPag {
+    font-size: 30px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+    border: 2px solid black;
+    border-top-left-radius: 25px;
+}
+.buttonPag:hover {
+    cursor: pointer;
+}
+.buttonPrevNext {
+    font-size: 40px;
+    font-weight: 900;
+    border: none;
+    background: none;
+    margin: 0px 5px 0px 5px;
+}
+.buttonPrevNext:hover {
+    cursor: pointer;
+}

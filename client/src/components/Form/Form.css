@@ -1,0 +1,94 @@
+
+.Form {
+    margin: 35px 75px 75px 75px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 25px;
+    background-color: #0000004f;
+    border-radius: 25px;
+}
+.labelNameImage {
+    display: grid;
+    grid-template-columns: 40% 30%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inputNameImage {
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 30px;
+    background-color: transparent;
+}
+.divHeightWeight {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+}
+.labelHeightWeight{
+	margin: 10px;
+}
+.inputHeightWeight {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.labelTemperaments {
+    display: grid;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 15px;
+}
+.containerDivTemperaments {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.divTemperaments {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5px;
+    background-color: #76767680;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.deleteTemperaments {
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    color: red;
+    border: none;
+}
+.deleteTemperaments:hover {
+    cursor: pointer;
+}
+.addTemperaments {
+    margin: 5px 10px 5px 10px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    font-weight: 900;
+    border-style: dashed;
+    background-color: transparent;
+}
+.addTemperaments:hover {
+    cursor: pointer;
+}
+.submitDog {
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    font-weight: bold;
+    border-style: dashed;
+    border-radius: 12px;
+    background-color: transparent;
+}
+.submitDog:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.navBar {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 70px;
+    justify-content: center;
+}
+.navDivLiks {
+    background-image: url("../Home/Tibia.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 120px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.navLiks {
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.divNav {
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: double;
+}

@@ -1,0 +1,26 @@
+.Loader {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: url("./LoaderGift.gif");
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center ;
+    background-attachment: fixed;
+    background-color: #1bceb0;
+    width: 100vw;
+    height: 100vh;
+	z-index: 2;
+	display: flex;
+	align-items: center;
+	/*justify-content: center;
+*/}
+
+.Loading {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 20px 0px 20px 40px;
+	color: #251005;
+}
+
