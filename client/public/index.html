@@ -24,10 +24,33 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Dogs App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCvW8kViWFSltDsLtvd9R-PKBevlrFrnv8",
+        authDomain: "dogs-app-back.firebaseapp.com",
+        projectId: "dogs-app-back",
+        storageBucket: "dogs-app-back.appspot.com",
+        messagingSenderId: "917164331971",
+        appId: "1:917164331971:web:5ca3bb054928211878a376",
+        measurementId: "G-V5SKWXN12C"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <!--<noscript>You need to enable JavaScript to run this app.</noscript>-->
     <div id="root"></div>
     <!--
       This HTML file is a template.
