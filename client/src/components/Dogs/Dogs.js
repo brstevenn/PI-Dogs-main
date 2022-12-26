@@ -125,7 +125,7 @@ const Dogs= () => {
 	return (
 		<div className="dogs" >
 		{(loader && <Loader/>) || <div>
-			{/*<video src={video} autoPlay={true} muted={true} loop={true} poster="./videoperro.mp4" style="z-index: -1;position: fixed;width: 100vw;left: 0;top: 0;"></video>*/}
+			<video src={video} autoPlay={true} muted={true} loop={true} poster="./videoperro.mp4" Style={"z-index: -1;position: fixed;width: 100vw;left: 0;top: 0;"}></video>
 			<div className="divNav" >
         		<Nav/>
       		</div>

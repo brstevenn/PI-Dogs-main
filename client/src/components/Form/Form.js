@@ -143,14 +143,14 @@ const Form = () => {
 
 	return (
 		<div className="form">
-			{/*<video
+			<video
 				src={video}
 				autoPlay={true}
 				muted={true}
 				loop={true}
 				poster="./videoperro.mp4"
-				style="z-index: -1;position: fixed;width: 100vw;left: 0;top: 0;"
-			></video>*/}
+				Style={"z-index: -1;position: fixed;width: 100vw;left: 0;top: 0;"}
+			></video>
 			<div className="divNav">
 				<Nav />
 			</div>
