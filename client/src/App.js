@@ -9,7 +9,7 @@ import Dogs from "./components/Dogs/Dogs";
 import DogDetails from "./components/Dogs/DogCard/DogDetails/DogDetails";
 import Form from "./components/Form/Form";
 
-axios.defaults.baseURL = "http://localhost:3001/";
+axios.defaults.baseURL = "https://pi-dogs-main-production-d4fc.up.railway.app/";
 
 function App() {
   return (
