@@ -8,7 +8,7 @@ import {
 	validNum,
 	validName,
 } from "./Validations";
-import video from "../Home/Perro.mp4";
+import video from "./Perro.mp4";
 
 import "./Form.css";
 
@@ -149,7 +149,6 @@ const Form = () => {
 				muted={true}
 				loop={true}
 				poster="./videoperro.mp4"
-				Style={"z-index: -1;position: fixed;width: 100vw;left: 0;top: 0;"}
 			></video>
 			<div className="divNav">
 				<Nav />

@@ -9,7 +9,7 @@ const Home = () => {
 
 	return (
 		<div className="Home" >
-			<video src={video} autoPlay={true} muted={true} loop={true} poster="./videoperro.mp4" Style={"z-index: -1;position: fixed;width: 100vw;left: 0;top: 0;"}></video>
+			<video src={video} autoPlay={true} muted={true} loop={true} poster="./videoperro.mp4"></video>
 			<div className="divLink" >
 				<Link  to="/dogs" className="linkDogs" >Dogs App</Link>
 			</div>

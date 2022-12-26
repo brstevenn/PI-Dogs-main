@@ -8,6 +8,13 @@
     padding: 0px;
 }
 
+.Home video {
+    position: fixed!important;
+    left: 0!important;
+    top: 0!important;
+    z-index: -1!important;
+    width: 100vw!important;
+}
 .Home .divLink {
     background-image: url("./Tibia.png");
     background-size: cover;

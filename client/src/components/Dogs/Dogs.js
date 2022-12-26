@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from 'react-redux'
 import * as actions from '../../redux/actions/index'
 import Nav from '../Nav/Nav';
 import DogCard from './DogCard/DogCard'
-import video from '../Home/Perro.mp4'
+import video from './Perro.mp4'
 import Loader from '../Loader/Loader'
 
 
@@ -125,7 +125,7 @@ const Dogs= () => {
 	return (
 		<div className="dogs" >
 		{(loader && <Loader/>) || <div>
-			<video src={video} autoPlay={true} muted={true} loop={true} poster="./videoperro.mp4" Style={"z-index: -1;position: fixed;width: 100vw;left: 0;top: 0;"}></video>
+			<video src={video} autoPlay={true} muted={true} loop={true} poster="./videoperro.mp4" ></video>
 			<div className="divNav" >
         		<Nav/>
       		</div>
