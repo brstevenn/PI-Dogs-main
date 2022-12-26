@@ -149,6 +149,7 @@ const Form = () => {
 				muted={true}
 				loop={true}
 				poster="./videoperro.mp4"
+				style="z-index: -1;position: fixed;width: 100vw;left: 0;top: 0;"
 			></video>
 			<div className="divNav">
 				<Nav />
