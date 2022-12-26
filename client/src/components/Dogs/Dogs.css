@@ -103,7 +103,7 @@
     cursor: pointer;
 }
 
-video {
+.dogs div video {
     position: fixed;
     left: 0;
     top: 0;
