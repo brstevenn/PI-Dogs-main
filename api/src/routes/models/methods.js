@@ -1,12 +1,13 @@
 const { Dog, Temperament } = require('../../db.js');
+require('dotenv').config();
 const axios = require('axios')
-const API = process.env;
+const { API_KEY } = process.env;
 const {validateDog, dataSearch, temperamentValidate, validID, validDB, validName, validNameSpace} = require('./validations.js')
 
 const imageBaseUrl = "https://cdn2.thedogapi.com/images/"
 
 const getDataApi = async () => {
-	const api = await axios.get(`https://api.thedogapi.com/v1/breeds?api_key=${API.API_KEY}`) 
+	const api = await axios.get(`https://api.thedogapi.com/v1/breeds?api_key=${API_KEY}`) 
 	if(api.data) {
 		const data = api.data.map(item => {
 			return {
