@@ -21,6 +21,7 @@ const rootReducer = (state = initialState, action) => {
 					weight: item.weight,
 					image: item.image,
 					temperament: item.temperament,
+					life_span: item.life_span,
 					db: true
 				}
 			}))};
@@ -34,6 +35,7 @@ const rootReducer = (state = initialState, action) => {
 						weight: item.weight,
 						image: item.image,
 						temperament: item.temperament,
+						life_span: item.life_span,
 					}
 				} else {
 					return null
