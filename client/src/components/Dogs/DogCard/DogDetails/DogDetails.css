@@ -2,10 +2,11 @@
     justify-items: center;
     display: grid;
 }
-.divDetails {
+
+.dogDetailsContainer .divDetails {
     display: contents;
 }
-.dogCardDetails {
+.dogDetailsContainer .divDetails .dogCardDetails {
     height: fit-content;
     width: fit-content;
     margin: 10px;
@@ -14,7 +15,7 @@
     display: grid;
     color: white;
 }
-.divNavDetails {
+.dogDetailsContainer .divDetails .divNavDetails {
     margin: 5px;
     justify-content: center;
     text-align: center;
@@ -23,21 +24,21 @@
     border-style: double;
     width: 95%;
 }
-.cardDetails {
+.dogDetailsContainer .divDetails .divNavDetails .cardDetails {
     display: grid;
     justify-content: center;
     justify-items: center;
 }
-.dogImageDetails {
+.dogDetailsContainer .divDetails .divNavDetails .cardDetails .dogImageDetails {
     width: 425px;
     margin: 20px;
     border-radius: 15px;
 }
-.dogTitleDetails {
+.dogDetailsContainer .divDetails .divNavDetails .cardDetails .dogTitleDetails {
     font-size: 30px;
     margin: 5px;
 }
-.temperamentsContainer {
+.dogDetailsContainer .divDetails .divNavDetails .cardDetails .temperamentsContainer {
     text-align: center;
     display: grid;
     justify-content: center;
@@ -45,7 +46,7 @@
     font-weight: 900;
     margin-top: 12px;
 }
-.temperament {
+.dogDetailsContainer .divDetails .divNavDetails .cardDetails .temperamentsContainer .temperament {
     font-size: 15px;
     width: fit-content;
     height: auto;
@@ -53,7 +54,7 @@
     margin-top: 5px;
     font-weight: 700;
 }
-.propsP {
+.dogDetailsContainer .divDetails .divNavDetails .cardDetails .propsP {
     font-size: 20px;
     font-weight: bold;
     margin: 5px;

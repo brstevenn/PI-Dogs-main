@@ -7,7 +7,7 @@
     display: grid;
     color: white;
 }
-.deleteDog {
+.dogCard .deleteDog {
     font-size: 30px;
     height: fit-content;
     width: fit-content;
@@ -17,24 +17,24 @@
     color: red;
     margin: 5px 10px 5px 10px;
 }
-.deleteDog:hover {
+.dogCard .deleteDog:hover {
     cursor: pointer;
 }
-.dogTitle {
+.dogCard .dogTitle {
     font-size: 25px;
     margin: 10px;
 }
-.dogImage {
+.dogCard .dogImage {
     width: 300px;
     margin: 10px;
     border-radius: 10px;
 }
-.pDog {
+.dogCard .pDog {
     font-size: 20px;
     margin: 2px;
     font-weight: 500;
 }
-.containerTemperaments {
+.dogCard .containerTemperaments {
     text-align: center;
     display: grid;
     justify-content: center;
@@ -42,7 +42,7 @@
     font-weight: 900;
     margin-top: 12px;
 }
-.temperament {
+.dogCard .containerTemperaments .temperament {
     font-size: 15px;
     width: fit-content;
     height: auto;

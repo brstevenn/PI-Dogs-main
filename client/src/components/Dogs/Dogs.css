@@ -7,21 +7,21 @@
     align-items: stretch;
     align-content: space-around;
 }
-.cardsContainer {
+.dogs div .cardsContainer {
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.filters {
+.dogs div .filters {
     display: flex;
     margin: 20px 40px 10px 40px;
 }
-.inputByName {
+.dogs div .filters label .inputByName {
     width: 50%;
     background-color: #faebd700;
     border-style: dashed;
 }
-.buttonByName {
+.dogs div .filters label .buttonByName {
     width: 50%;
     height: 50%;
     margin: 5px;
@@ -32,14 +32,14 @@
     font-size: 14px;
     font-weight: bold;
 }
-.buttonByName:hover {
+.dogs div .filters label .buttonByName .buttonByName:hover {
     cursor: pointer;
 }
-.labelByTemperament {
+.dogs div .filters .labelByTemperament {
     font-size: 18px;
     font-weight: bold;
 }
-.selectByTemperament {
+.dogs div .filters .labelByTemperament .selectByTemperament {
     width: 50%;
     height: 50%;
     border-style: dashed;
@@ -47,26 +47,26 @@
     font-size: 15px;
     font-weight: bold;
 }
-.selectByTemperament::-ms-expand {
+.dogs div .filters .labelByTemperament .selectByTemperament::-ms-expand {
     display: none;
 }
-.selectByTemperament:hover {
+.dogs div .filters .labelByTemperament .selectByTemperament:hover {
     border-color: #888;
     cursor: pointer;
 }
-.selectByTemperament:focus {
+.dogs div .filters .labelByTemperament .selectByTemperament:focus {
     border-color: #888;
     cursor: pointer;
     box-shadow: 0 0 1px 1px;
 }
-.selectByTemperament option {
+.dogs div .filters .labelByTemperament .selectByTemperament option {
     font-weight: bold;
 }
-.selectByTemperament select {
+.dogs div .filters .labelByTemperament .selectByTemperament select {
     background-color: black;
     color: white;
 }
-.sortDogs {
+.dogs div .filters .sortDogs {
     margin: 2px 3px 2px 3px;
     background-color: transparent;
     border-style: double;
@@ -75,10 +75,10 @@
     font-weight: bold;
     border-radius: 15px;
 }
-.sortDogs:hover {
+.dogs div .filters .sortDogs:hover {
     cursor: pointer;
 }
-.buttonPag {
+.dogs div div .buttonPag {
     font-size: 30px;
     font-weight: bold;
     width: 50px;
@@ -89,16 +89,16 @@
     border: 2px solid black;
     border-top-left-radius: 25px;
 }
-.buttonPag:hover {
+.dogs div div .buttonPag:hover {
     cursor: pointer;
 }
-.buttonPrevNext {
+.dogs div div .buttonPrevNext {
     font-size: 40px;
     font-weight: 900;
     border: none;
     background: none;
     margin: 0px 5px 0px 5px;
 }
-.buttonPrevNext:hover {
+.dogs div div .buttonPrevNext:hover {
     cursor: pointer;
 }

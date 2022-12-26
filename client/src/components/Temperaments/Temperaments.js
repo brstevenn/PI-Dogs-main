@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from 'react-redux'
 import * as actions from '../../redux/actions/index'
 import TemperamentsCard from './TemperamentsCard/TemperamentsCard';
 
-import './Temperaments.css'
+//import './Temperaments.css'
 
 const Temperaments = () => {
 
