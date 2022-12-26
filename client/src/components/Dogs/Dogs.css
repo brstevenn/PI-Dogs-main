@@ -1,4 +1,4 @@
-.dogs{
+.dogs {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -10,18 +10,18 @@
 .cardsContainer {
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);   
+    grid-template-columns: repeat(2, 1fr);
 }
-.filters{
+.filters {
     display: flex;
     margin: 20px 40px 10px 40px;
 }
-.inputByName{
+.inputByName {
     width: 50%;
     background-color: #faebd700;
     border-style: dashed;
 }
-.buttonByName{
+.buttonByName {
     width: 50%;
     height: 50%;
     margin: 5px;
@@ -32,14 +32,14 @@
     font-size: 14px;
     font-weight: bold;
 }
-.buttonByName:hover{
+.buttonByName:hover {
     cursor: pointer;
 }
-.labelByTemperament{
+.labelByTemperament {
     font-size: 18px;
     font-weight: bold;
 }
-.selectByTemperament{
+.selectByTemperament {
     width: 50%;
     height: 50%;
     border-style: dashed;
